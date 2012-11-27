@@ -1,0 +1,37 @@
+name: NoTeleport
+main: me.odium.noteleport.NoTeleport
+version: 0.3
+commands:
+   notp:
+      aliases: [ntp]
+      description: NoTP Main Menu and Toggle
+      permission: notp.toggle
+      usage: /notp
+   call:
+      description: Send Teleport Request
+      permission: notp.call
+      usage: /call <Player>
+   tpaccept:
+      aliases: [tpa]
+      description: Accept Teleport Request
+      permission: notp.call
+      usage: /tpaccept
+   tpdeny:
+      aliases: [tpd]
+      description: Deny Teleport Request
+      permission: notp.call
+      usage: /tpdeny
+   teleport:
+      aliases: [tp]
+      description: Teleport [to] a player
+      permission: notp.teleport
+      usage: /teleport <player> [player]
+   bring:
+      description: Bring a player
+      permission: notp.bring
+      usage: /bring <player>
+   put:
+      description: Put a player
+      permission: notp.put
+      usage: /put <player>
+
